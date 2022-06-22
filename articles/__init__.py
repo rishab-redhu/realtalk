@@ -1,0 +1,1 @@
+# created using py manage.py startapp articles

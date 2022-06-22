@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# imported intalled apps using python manage.py migrate --> also generated database
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -56,7 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [ 
-            BASE_DIR / "templates",
+            BASE_DIR / "templates" ,
             ],
         'APP_DIRS': True,
         'OPTIONS': {
